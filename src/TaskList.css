@@ -1,0 +1,33 @@
+.task-list {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-list li:hover {
+    background: #ddd;
+  }
+  
+  .task-list input {
+    padding: 10px;
+    margin-right: 5px;
+    width: calc(100% - 85px);
+    box-sizing: border-box;
+  }
+  
+  .task-list button {
+    padding: 10px;
+  }
+  
